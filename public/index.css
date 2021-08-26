@@ -1,3 +1,6 @@
+body {
+  background-color: pink;
+}
 header {
   background: url(https://data.whicdn.com/images/353828523/original.jpg);
   height: 200px;
@@ -5,9 +8,13 @@ header {
 }
 h1 {
   text-align: center;
+  z-index: 10;
+  color: black;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main {
-  margin: 20px;
+  margin: 30px;
 }
 #hk_img {
   height: 100px;
@@ -16,4 +23,8 @@ main {
 
 #header_img {
   z-index: -1;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
