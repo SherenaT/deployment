@@ -3,12 +3,14 @@ const path = require("path");
 
 const app = express();
 
+app.use(express.static("public"));
+
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "../index.html"));
 });
 
-app.get("/", function (req, res) {
-  res.sendFile(path.join(__dirname, "../images/hello-kitty-credit-sanrio.jpg"));
+app.get("/public", function (req, res) {
+  res.sendFile(path.join(__dirname, "./public"));
 });
 
 const port = process.env.PORT || 4005;
