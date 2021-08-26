@@ -3,16 +3,16 @@ body {
 }
 
 header {
+  z-index: -1;
   background: url(https://data.whicdn.com/images/353828523/original.jpg);
   height: 150px;
   width: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
 }
 h1 {
   text-align: center;
+  z-index: 10;
   color: fuchsia;
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
