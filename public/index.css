@@ -1,7 +1,8 @@
 body {
   background-color: rgb(255, 220, 226);
 }
-#header_img {
+
+header {
   z-index: -1;
   background: url(https://data.whicdn.com/images/353828523/original.jpg);
   height: 150px;
