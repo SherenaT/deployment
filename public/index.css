@@ -1,16 +1,17 @@
 body {
   background-color: pink;
 }
-header {
+#header_img {
+  z-index: -1;
   background: url(https://data.whicdn.com/images/353828523/original.jpg);
-  height: 200px;
+  height: 150px;
   width: 100%;
 }
 h1 {
   text-align: center;
   z-index: 10;
-  color: black;
-  font-size: large;
+  color: fuchsia;
+  font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main {
@@ -21,9 +22,9 @@ main {
   width: auto;
 }
 
-#header_img {
+/* #header_img {
   z-index: -1;
-}
+} */
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
