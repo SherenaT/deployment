@@ -13,3 +13,7 @@ main {
   height: 100px;
   width: auto;
 }
+
+#header_img {
+  z-index: -1;
+}
