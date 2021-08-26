@@ -1,8 +1,12 @@
 header {
-  background: url(public/HK_header.jpg);
   height: 200px;
 }
+header_img {
+  width: 100%;
+  height: 100px;
+}
+
 #hk_img {
-  height: 200px;
+  height: 100px;
   width: auto;
 }
