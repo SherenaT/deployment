@@ -1,5 +1,6 @@
 body {
   background-color: rgb(255, 220, 226);
+  margin: 20px;
 }
 h1 {
   /* position: absolute; */
@@ -20,11 +21,13 @@ main {
   height: 100px;
   width: auto;
 }
-
-/* #header_img {
-  z-index: -1;
-} */
-
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main {
+  display: flex;
+  justify-content: space-around;
+}
+#flex {
+  flex: 1;
 }
