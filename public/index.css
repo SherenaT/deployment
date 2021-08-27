@@ -26,7 +26,7 @@ p {
 }
 #main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
 }
 #flex {
   flex: 3;
