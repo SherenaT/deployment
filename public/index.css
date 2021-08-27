@@ -23,11 +23,10 @@ h1 {
   color: fuchsia;
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
   height: 200px;
-  width: 770px;
+  width: 100%;
   margin-bottom: 20px;
-  vertical-align: middle;
+  vertical-align: top;
   line-height: 200px;
   background: transparent no-repeat scroll 50% 50%;
 }
