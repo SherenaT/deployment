@@ -11,8 +11,7 @@ h1 {
   width: 100%;
   margin: 20px;
   vertical-align: center;
-  /* line-height: 200px; */
-  background: transparent no-repeat scroll 50% 50%;
+  line-height: 200px;
 }
 main {
   margin: 30px;
