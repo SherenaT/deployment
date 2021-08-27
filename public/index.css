@@ -1,21 +1,6 @@
 body {
   background-color: rgb(255, 220, 226);
 }
-
-/*header {
-  text-align: center;
-  height: 200px;
-  width: 770px;
-  overflow: auto;
-  margin-bottom: 20px;
-}
- header_img {
-  z-index: -1;
-  height: 150px;
-  width: 100%;
-  /* background: url(https://data.whicdn.com/images/353828523/original.jpg); 
-  position: relative;
-} */
 h1 {
   /* position: absolute; */
   text-align: center;
@@ -27,7 +12,7 @@ h1 {
   margin: 20px;
   vertical-align: center;
   /* line-height: 200px; */
-  /* background: transparent no-repeat scroll 50% 50%; */
+  background: transparent no-repeat scroll 50% 50%;
 }
 main {
   margin: 30px;
