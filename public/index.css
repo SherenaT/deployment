@@ -26,7 +26,6 @@ p {
 }
 #main {
   display: flex;
-  justify-content: space-around;
 }
 #flex {
   flex: 1;
