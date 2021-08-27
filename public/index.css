@@ -10,7 +10,8 @@ header_img {
   z-index: -1;
   height: 150px;
   width: 100%;
-  background: url(https://data.whicdn.com/images/353828523/original.jpg);
+  /* background: url(https://data.whicdn.com/images/353828523/original.jpg); */
+  position: relative;
 }
 h1 {
   position: absolute;
